@@ -1,0 +1,79 @@
+data/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+*.dylib
+*.dll
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+eggs/
+parts/
+pip-wheel-metadata/
+wheels/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Pyenv / Python tool configs
+.python-version
+
+# IDEs / editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter
+.ipynb_checkpoints
+*.ipynb
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Caches
+.cache/
+.mypy_cache/
+.pyre/
+pip-selfcheck.json
+torch_cache/
+
+# Logs
+*.log
+logs/
+logs/*
+
+# Model checkpoints / weights / large binaries
+checkpoints/
+weights/
+runs/
+tb_logs/
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.model
+*.bin
+events.out.tfevents.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Documentation/build
+docs/_build/

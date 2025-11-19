@@ -1,0 +1,6 @@
+numpy
+ultralytics
+kagglehub
+ipykernel
+pre-commit
+nbstripout
