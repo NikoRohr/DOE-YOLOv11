@@ -39,7 +39,6 @@ venv.bak/
 
 # Jupyter
 .ipynb_checkpoints
-*.ipynb
 
 # Test / coverage
 .pytest_cache/
